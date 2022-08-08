@@ -14,10 +14,10 @@
 }
 .login .login__form-container .form-container__logo {
   width: 15rem;
-  margin-bottom: 48px;
   -ms-grid-column-align: center;
       justify-self: center;
   display: none;
+  margin-bottom: 4.8rem;
 }
 @media (max-width: 640px) {
   .login .login__form-container .form-container__logo {
@@ -25,17 +25,17 @@
   }
 }
 .login .login__form-container .form-container__titulo {
-  font-size: 1.8rem;
-  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 2.4rem;
 }
 .login .login__form-container .form-container__subtitulo {
   color: #c7c7c7;
   font-size: 1.6rem;
   font-weight: 300;
-  margin-bottom: 3.2rem;
   text-align: center;
+  margin-bottom: 3.2rem;
 }
 .login .login__form-container .form-container__form {
   display: -webkit-box;
@@ -60,13 +60,16 @@
   margin-bottom: 0.8rem;
 }
 .login .login__form-container .form-container__form .form__button {
-  margin-top: 1.5rem;
   background-color: #acd9b2;
   width: 100%;
-  height: 4rem;
+  height: 6rem;
   cursor: pointer;
   border-radius: 0.8rem;
   font-size: 1.8rem;
   color: #ffffff;
   font-weight: 700;
+  margin-top: 1.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }

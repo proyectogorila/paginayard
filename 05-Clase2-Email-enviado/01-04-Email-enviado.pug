@@ -1,0 +1,15 @@
+extend ../01PUG/_02-Head.pug
+block linkcss-individual
+    link(rel="stylesheet", href="./01-04-Email-enviado.css")
+block contenido
+    .email
+        .email__container
+            img.container__logo(src="../03ASSETS/02-logos/logo_yard_sale.svg", alt="logo")
+            h1.container__titulo Email has been sent!
+            p.container__subtitulo Please check your inbox for instructions on how to reset the password
+            .container__icono-email
+                img.icono-email__img(src="../03ASSETS/01-icons/email.svg", alt="")
+            input.container__button(type="submit",value="Enviar")
+            .container__leyenda 
+                p.leyenda__parrafo Diden't recived this Email?
+                a.leyenda__resend Resend
