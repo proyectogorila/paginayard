@@ -1,0 +1,15 @@
+extend ../01PUG/_02-Head.pug
+block linkcss-individual
+    link(rel="stylesheet", href="./01-04-Contrasena.css")
+block contenido
+    .login
+        .login__form-container
+            img.form-container__logo(src="../03ASSETS/02-logos/logo_yard_sale.svg", alt="logo")
+            h1.form-container__titulo Create a new password
+            p.form-container__subtitulo Entera new passwordfor your account
+            form.form-container__form(action="/")
+                label.form__label-password.form__label(for="form__input-password-id") Password
+                input#form__input-password-id.form__input.form__input-password(type="password" placeholder='******')
+                label.form__label-re-passwor.form__label(for="form__input-re-password-id") Re-enter password
+                input#form__input-re-password-id.form__input.form__input-re-password(type="password" placeholder='******')
+                input.form__button.primary-button(type="submit" Value="Enviar")
